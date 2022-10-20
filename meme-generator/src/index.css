@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&family=Karla:wght@400;500;700&family=Silkscreen&display=swap');
+/*---  font-family: 'Bebas Neue', cursive;
+       font-family: 'Inter', sans-serif;
+       font-family: 'Silkscreen', cursive; ---*/
+
+       /* -- background: rgb(52,5,162);
+background: linear-gradient(90deg, rgba(52,5,162,1) 22%, rgba(96,29,253,1) 72%, rgba(131,58,180,1) 98%);
+--*/
+:root {
+  --gradient:linear-gradient(90deg, rgba(52,5,162,1) 22%, rgba(96,29,253,1) 72%, rgba(131,58,180,1) 98%);
+}
+
+body {
+  margin: 0;
+  font-family:'Karla', sans-serif;
+   
+}
+
+
