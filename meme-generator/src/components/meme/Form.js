@@ -4,7 +4,7 @@ import { FcAddImage } from "react-icons/fc";
 
 const Form = () => {
     return (
-        <form className={styles.form_container}>
+        <div className={styles.form_container}>
             {" "}
             <div className={styles.inputs}>
                 <input
@@ -22,7 +22,7 @@ const Form = () => {
                 <span className={styles.btn_txt}>Get a new meme image</span>{" "}
                 <FcAddImage className={styles.btn_icon} />
             </button>
-        </form>
+        </div>
     );
 };
 

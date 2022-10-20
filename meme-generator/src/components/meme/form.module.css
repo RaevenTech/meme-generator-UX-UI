@@ -1,5 +1,7 @@
 .form_container {
     padding:40px;
+    display: flex;
+    flex-direction: column;
     
 } 
 .inputs {

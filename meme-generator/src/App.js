@@ -1,5 +1,5 @@
 import "./App.css";
-import Form from "./components/form/Form";
+import Form from "./components/meme/Form";
 import Header from "./components/header/Header";
 
 function App() {
