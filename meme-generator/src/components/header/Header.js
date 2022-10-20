@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./header/header.module.css";
+import styles from "./header.module.css";
 import { GiWizardFace } from "react-icons/gi";
 
 const Header = () => {
