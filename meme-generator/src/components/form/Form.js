@@ -6,12 +6,21 @@ const Form = () => {
     return (
         <form className={styles.form_container}>
             {" "}
-            <div>
-                <input type="text" className={styles.inputs} />
-                <input type="text" className={styles.inputs} />
+            <div className={styles.inputs}>
+                <input
+                    type="text"
+                    className={styles.input}
+                    placeholder="Top text"
+                />
+                <input
+                    type="text"
+                    className={styles.input}
+                    placeholder="Bottom text"
+                />
             </div>
-            <button>
-                Get a new meme image <FcAddImage />
+            <button className={styles.image_btn}>
+                <span className={styles.btn_txt}>Get a new meme image</span>{" "}
+                <FcAddImage className={styles.btn_icon} />
             </button>
         </form>
     );
