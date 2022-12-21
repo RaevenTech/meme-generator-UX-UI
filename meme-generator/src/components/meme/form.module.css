@@ -41,7 +41,7 @@
     border: none;
     background: var(--gradient);
     font-size: 1.2em;
-    margin-left: 112px;
+    margin:  0px auto;
     cursor: pointer;
 }
 .btn_icon {
