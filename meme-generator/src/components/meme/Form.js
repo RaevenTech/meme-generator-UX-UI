@@ -22,6 +22,7 @@ const Form = () => {
                 <span className={styles.btn_txt}>Get a new meme image</span>{" "}
                 <FcAddImage className={styles.btn_icon} />
             </button>
+            <section></section>
         </div>
     );
 };
